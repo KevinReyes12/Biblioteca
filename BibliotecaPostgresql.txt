@@ -37,7 +37,7 @@ alter table MEMBRESIA add constraint fk_MEMBRESIA_USUARIO foreign key(idusuario)
 
 --Inserción de datos 
 insert into LIBRO(idlibro,nombrelibro,autor,editorial,copias,descripcion)values(1,'Mi lucha','Adolf Hitler','EditorialInt',5,'Libro polémico');
-insert into LIBRO(idlibro,nombrelibro,autor,editorial,copias,descripcion)values(2,'EL campeon eterno','Michael Moorcock','EdiSA',5,'Primera parte de la saga');
+insert into LIBRO(idlibro,nombrelibro,autor,editorial,copias,descripcion)values(2,'EL campeon eterno','Michael Moorcock','EdiSA',6,'Primera parte de la saga');
 insert into LIBRO(idlibro,nombrelibro,autor,editorial,copias,descripcion)values(3,'La broma asesina','Victoria de Castilla','Editorial Suprema',8,'Historia autoconclusiva');
 insert into LIBRO(idlibro,nombrelibro,autor,editorial,copias,descripcion)values(4,'El señor de los Anillos','Eddie Brock','EdiSA',2,'Historia de un señor');
 insert into LIBRO(idlibro,nombrelibro,autor,editorial,copias,descripcion)values(5,'The Witcher','Alan Moore','Editorial Vida',7,'Primera parte de la saga de El Magias');
