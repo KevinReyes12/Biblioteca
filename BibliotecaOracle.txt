@@ -34,16 +34,16 @@ alter table PRESTAMO add constraint fk_PRESTAMO_USUARIO foreign key(idusuario)re
 alter table DETALLEPRE add constraint fk_DETALLEPRE_LIBRO foreign key(idlibro)references LIBRO(idlibro);
 alter table MEMBRESIA add constraint fk_MEMBRESIA_USUARIO foreign key(idusuario)references USUARIO(idusuario);
 
-insert into LIBRO(idlibro,nombrelibro,autor,editorial,copias,descripcion)values(1,'Mi lucha','Adolf Hitler','EditorialInt',5,'Libro polémico');
+insert into LIBRO(idlibro,nombrelibro,autor,editorial,copias,descripcion)values(1,'Mi lucha','Adolf Hitler','EditorialInt',5,'Libro polÃ©mico');
 insert into LIBRO(idlibro,nombrelibro,autor,editorial,copias,descripcion)values(2,'EL campeon eterno','Michael Moorcock','EdiSA',5,'Primera parte de la saga');
 insert into LIBRO(idlibro,nombrelibro,autor,editorial,copias,descripcion)values(3,'La broma asesina','Victoria de Castilla','Editorial Suprema',8,'Historia autoconclusiva');
-insert into LIBRO(idlibro,nombrelibro,autor,editorial,copias,descripcion)values(4,'El señor de los Anillos','Eddie Brock','EdiSA',2,'Historia de un señor');
+insert into LIBRO(idlibro,nombrelibro,autor,editorial,copias,descripcion)values(4,'El seÃ±or de los Anillos','Eddie Brock','EdiSA',2,'Historia de un seÃ±or');
 insert into LIBRO(idlibro,nombrelibro,autor,editorial,copias,descripcion)values(5,'The Witcher','Alan Moore','Editorial Vida',7,'Primera parte de la saga de El Magias');
 
-insert into USUARIO(idusuario,nombreusuario,apellidousuario,direccionusuario,cedulausuario)values(1,'Kevin Isaac','Reyes López','Calle 13 Ave 5',987654321);
-insert into USUARIO(idusuario,nombreusuario,apellidousuario,direccionusuario,cedulausuario)values(2,'Ariana Liseth','Gómez Preciado','Calle 8 Ave 2',123456789);
-insert into USUARIO(idusuario,nombreusuario,apellidousuario,direccionusuario,cedulausuario)values(3,'Victoria Lucía','Ruperti Macías','Calle 3 Ave 55',789456123);
-insert into USUARIO(idusuario,nombreusuario,apellidousuario,direccionusuario,cedulausuario)values(4,'Marcelo Samuel','García Mero','Calle 2 Ave 15',321654987);
+insert into USUARIO(idusuario,nombreusuario,apellidousuario,direccionusuario,cedulausuario)values(1,'Kevin Isaac','Reyes LÃ³pez','Calle 13 Ave 5',987654321);
+insert into USUARIO(idusuario,nombreusuario,apellidousuario,direccionusuario,cedulausuario)values(2,'Ariana Liseth','GÃ³mez Preciado','Calle 8 Ave 2',123456789);
+insert into USUARIO(idusuario,nombreusuario,apellidousuario,direccionusuario,cedulausuario)values(3,'Victoria LucÃ­a','Ruperti MacÃ­as','Calle 3 Ave 55',789456123);
+insert into USUARIO(idusuario,nombreusuario,apellidousuario,direccionusuario,cedulausuario)values(4,'Marcelo Samuel','GarcÃ­a Mero','Calle 2 Ave 15',321654987);
 
 insert into MEMBRESIA(idmembresia,idusuario)values(1,3);
 
